@@ -8,5 +8,6 @@
 layout: home
 list_title: my daily notes
 ---
+<img height=200 src="./assets/images/dophin.jpg"> </img>
 
 [Github repository](https://github.com/jeffatoptics/jeff-minima)
