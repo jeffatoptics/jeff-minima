@@ -54,6 +54,14 @@ minima:
 
 # Build settings
 theme: minima
+minima:
+  skin: dark
+
+# header_pages:
+#   - about.md
+#   - portfolio.md
+
+show_excerpts: true
 
 plugins:
  - jekyll-feed
