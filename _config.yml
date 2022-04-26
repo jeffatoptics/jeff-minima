@@ -57,9 +57,10 @@ theme: minima
 minima:
   skin: dark
 
-# header_pages:
-#   - about.md
-#   - portfolio.md
+header_pages:
+   - index.md
+   - about.md
+   - header1.md
 
 show_excerpts: true
 
