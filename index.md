@@ -30,15 +30,18 @@ list_title: "daily note"
 
     - url {{ site.url }}
 
+- image link in posts 
+
+  ![](./_posts/images/dophin.jpg)
 
  
-<ul>
+<!-- <ul>
   {% for post in site.posts %}
     <li>
       <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
       {{ post.excerpt }}
     </li>
   {% endfor %}
-</ul> 
+</ul>  -->
 
 

@@ -8,13 +8,14 @@ title: demo a image as summary
 
 above is cross-folder reference with markdown syntax, it works for all relative folders
 
-![](./images/dophin.jpg)
+![](/images/dophin.jpg)
+
 
 above is cross-folder reference with markdown syntax,
 
 html syntaxin _posts will only work with relative folder under _posts 
 
-<img src="./images/dophin.jpg" />
+<img src="/images/dophin.jpg" />
 
 
 Eos eu docendi tractatos sapientem, brute option menandri in vix, quando vivendo accommodare te ius. Nec melius fastidii constituam id, viderer theophrastus ad sit, hinc semper periculis cum id. Noluisse postulant assentior est in, no choro sadipscing repudiandae vix. Vis in euismod delenit dignissim. Ex quod nostrum sit, suas decore animal id ius, nobis solet detracto quo te.
