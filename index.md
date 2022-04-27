@@ -7,6 +7,7 @@
 #
 title: HOME
 layout: home
+list_title: my-daily-note
 ---
 <p align=center>
 <img height=200 style="float:none" src="./assets/images/dophin.jpg" /></p>

@@ -115,5 +115,5 @@ lorem ipsum dolor | lorem ipsum | lorem | lorem ipsum
 lorem ipsum dolor | lorem ipsum dolor sit | lorem ipsum dolor sit amet | lorem ipsum dolor sit amet consectetur
 
 - [home](../index.md) 
-- [next](2022-04-27-this-post-for-simple-note.md)
+- [next](this-post-for-simple-note.md)
 
