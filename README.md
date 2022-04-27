@@ -1,9 +1,8 @@
 ---
 layout: page
-permalink: /readme/
+permalink: readme.html
+title: A simplified minima template
 ---
-
-# Simplified minima template
 
 ## purpose
 
