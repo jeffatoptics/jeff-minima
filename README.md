@@ -35,4 +35,8 @@ simplify the [jekyll/minima](https://github.com/jekyll/minima), and use these fi
 
 - use markdown syntax rather than jekyll.
 
-    - 
+    - `[link to a file in post](./_posts/2022-04-26-this-post-demonstrates-post-content-styles.md)`
+
+    - `![](../assets/images/dophin.jpg)`
+
+    - `![](../assets/images/dophin.jpg){: width="250"}`
