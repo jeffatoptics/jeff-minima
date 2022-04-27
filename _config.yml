@@ -68,3 +68,4 @@ relative_links:
 plugins:
  - jekyll-feed
  - jekyll-seo-tag
+ - jekyll-postfiles
