@@ -6,9 +6,13 @@ title: demo a image as summary
 
 ![](../assets/images/dophin.jpg)
 
-above is with markdown syntax, it works for all relative folders
+above is cross-folder reference with markdown syntax, it works for all relative folders
 
- html syntaxin _posts will only work with relative folder under _posts 
+![](./images/dophin.jpg)
+
+above is cross-folder reference with markdown syntax,
+
+html syntaxin _posts will only work with relative folder under _posts 
 
 <img src="./images/dophin.jpg" />
 
