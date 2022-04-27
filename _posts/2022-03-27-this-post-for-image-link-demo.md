@@ -23,4 +23,4 @@ above is asset-folder reference with markdown syntax, it works.
 
 <img src="{{ site.baseurl }}{% link assets/images/dophin.jpg %}" width=250/>
 
-`<img src="{{ site.baseurl }}{% link assets/images/dophin.jpg %}" width=250/>{% endraw %}`
+`{% raw %}<img src="{{ site.baseurl }}{% link assets/images/dophin.jpg %}" width=250/>{% endraw %}`
