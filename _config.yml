@@ -57,7 +57,9 @@ theme: minima
 header_pages:
    - index.md
    - about.md
+   - category.md
    - header1.md
+
 
 relative_links:
   enabled: true

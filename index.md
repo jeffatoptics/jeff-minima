@@ -7,7 +7,7 @@
 #
 title: HOME
 layout: home
-list_title: my-daily-note
+list_title: "daily note"
 ---
 
 <p align=center>
