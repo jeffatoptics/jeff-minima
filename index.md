@@ -17,6 +17,6 @@ list_title: my-daily-note
 
 [link to a file in post](./_posts/2022-04-26-this-post-demonstrates-post-content-styles.md)
 
-{% link post_url 2022-04-26-this-post-demonstrates-post-content-styles %}
-
-[link demo]({% link post_url 2022-04-26-this-post-demonstrates-post-content-styles %})
+{% post_url 2022-04-26-this-post-demonstrates-post-content-styles %}
+{{ site.baseurl }}{% post_url 2022-04-26-this-post-demonstrates-post-content-styles %}
+[link demo]({% post_url 2022-04-26-this-post-demonstrates-post-content-styles %})
