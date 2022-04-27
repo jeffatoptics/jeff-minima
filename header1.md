@@ -5,6 +5,3 @@
 - clone from jekyll/minima
 
 - delete the unnecessary files
-
-
-  
