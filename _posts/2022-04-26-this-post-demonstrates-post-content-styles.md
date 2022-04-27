@@ -114,6 +114,7 @@ lorem ipsum dolor sit amet | lorem ipsum dolor sit amet consectetur | lorem ipsu
 lorem ipsum dolor | lorem ipsum | lorem | lorem ipsum
 lorem ipsum dolor | lorem ipsum dolor sit | lorem ipsum dolor sit amet | lorem ipsum dolor sit amet consectetur
 
+the below links with markdown will not work in _posts folder:
 - [home](../index.md) 
 - [next](2002-04-21-test-date.md)
 
