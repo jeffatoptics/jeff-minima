@@ -5,7 +5,7 @@ list_title: "daily note"
 ---
 
 <p align=center>
-<img height=200 style="float:none" src="./assets/images/dophin.jpg" /></p>
+<img width=600 style="float:none" src="./assets/images/dophin.jpg" /></p>
 
 
 

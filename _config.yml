@@ -14,6 +14,7 @@ show_excerpts: true # set to true to show excerpts on the homepage
 minima:
   date_format: "%b %-d, %Y"
   skin: dark
+  # skin: classic, dark, Solarized-dark, Solarized
   # generate social links in footer
   social_links:
     #twitter: jekyllrb
@@ -68,4 +69,3 @@ relative_links:
 plugins:
  - jekyll-feed
  - jekyll-seo-tag
- - jekyll-postfiles

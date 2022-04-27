@@ -18,7 +18,7 @@ above is asset-folder reference with markdown syntax, it works.
 
 ![](../assets/images/dophin.jpg){: width="250"}
 
-`![link demo]({{ site.baseurl }}{% link assets/images/dophin.jpg %})`
+`![](../assets/images/dophin.jpg){: width="250"}`
 
 
 <img src="{{ site.baseurl }}{% link assets/images/dophin.jpg %}" width=250/>
