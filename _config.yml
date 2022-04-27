@@ -58,6 +58,11 @@ header_pages:
    - index.md
    - about.md
    - header1.md
+
+relative_links:
+  enabled: true
+  collections: true
+
 plugins:
  - jekyll-feed
  - jekyll-seo-tag
