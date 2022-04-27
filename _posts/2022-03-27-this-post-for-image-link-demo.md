@@ -6,17 +6,20 @@ title: demo a image as summary
 
 ![](../assets/images/dophin.jpg)
 
-above is cross-folder reference with markdown syntax, it works for all relative folders
+above is asset-folder reference with markdown syntax, it works.
 
-![](./images/dophin.jpg)
+**do not put the images and files in `_posts` folder. this do not works in github pages.**
 
-[link](./images/dophin.jpg)
+![link demo]({{ site.baseurl }}{% /assets/images/dophin.jpg %})
 
-above is cross-folder reference with markdown syntax,
+![](../assets/images/dophin.jpg){: width="250"}
 
-html syntaxin _posts will only work with relative folder under _posts 
+use img
 
-<img src="/images/dophin.jpg" />
+<img src="{{ site.baseurl }}{% /assets/images/dophin.jpg %}" width=250/>
+
+
+
 
 
 Eos eu docendi tractatos sapientem, brute option menandri in vix, quando vivendo accommodare te ius. Nec melius fastidii constituam id, viderer theophrastus ad sit, hinc semper periculis cum id. Noluisse postulant assentior est in, no choro sadipscing repudiandae vix. Vis in euismod delenit dignissim. Ex quod nostrum sit, suas decore animal id ius, nobis solet detracto quo te.
