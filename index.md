@@ -17,6 +17,14 @@ list_title: my-daily-note
 
 [link to a file in post](./_posts/2022-04-26-this-post-demonstrates-post-content-styles.md)
 
-{% post_url 2022-04-26-this-post-demonstrates-post-content-styles %}
-{{ site.baseurl }}{% post_url 2022-04-26-this-post-demonstrates-post-content-styles %}
-[link demo]({% post_url 2022-04-26-this-post-demonstrates-post-content-styles %})
+- {% post_url 2022-04-26-this-post-demonstrates-post-content-styles %}
+
+- {{ site.baseurl }}{% post_url 2022-04-26-this-post-demonstrates-post-content-styles %}
+
+- baseurl:{{ site.baseurl }}
+
+- url {{ site.url }}
+
+- [link demo]({{ site.baseurl }}{% post_url 2022-04-26-this-post-demonstrates-post-content-styles %})
+
+- [link demo]({{ site.baseurl }}{% post_url 2022-04-26-this-post-demonstrates-post-content-styles %})
