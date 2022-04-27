@@ -6,6 +6,7 @@ author:
 - jeffatoptics
 ---
 
+link demo with markdown syntax and jekyll syntax
 
 ## markdown link works 
 
