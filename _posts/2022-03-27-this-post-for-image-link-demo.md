@@ -1,6 +1,6 @@
 ---
 layout: post
-categories: note2
+categories: work
 title: demo a image as summary
 ---
 
@@ -14,7 +14,7 @@ above is asset-folder reference with markdown syntax, it works.
 
 ![link demo]({{ site.baseurl }}{% link assets/images/dophin.jpg %})
 
-`![link demo]({{ site.baseurl }}{% link assets/images/dophin.jpg %})`
+`{% raw %}![link demo]({{ site.baseurl }}{% link assets/images/dophin.jpg %}){% endraw %}`
 
 ![](../assets/images/dophin.jpg){: width="250"}
 
@@ -23,4 +23,4 @@ above is asset-folder reference with markdown syntax, it works.
 
 <img src="{{ site.baseurl }}{% link assets/images/dophin.jpg %}" width=250/>
 
-`<img src="{{ site.baseurl }}{% link assets/images/dophin.jpg %}" width=250/>`
+`<img src="{{ site.baseurl }}{% link assets/images/dophin.jpg %}" width=250/>{% endraw %}`

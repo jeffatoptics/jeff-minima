@@ -8,9 +8,9 @@ simplify the [jekyll/minima](https://github.com/jekyll/minima), and use these fi
    
 ## major changes from minima
 
-1. remove all the unnessary files
+1. remove all the unnecessary files
 
-1. content width  to 1280 px 
+1. set content width  to 1280 px 
     ```
     $content-width:    1280px !default;
     $on-palm:          600px !default;
@@ -18,7 +18,8 @@ simplify the [jekyll/minima](https://github.com/jekyll/minima), and use these fi
     ```
 2. add the [category.md](category.md) to show the posts in categories
 
-3. make the skin to dark, make the summary de
+3. set the skin to dark, `show_excerpts` to true
+
 ## usage
 
 1. copy all the files to the local folder.

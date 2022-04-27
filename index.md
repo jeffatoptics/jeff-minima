@@ -9,8 +9,10 @@ list_title: "daily note"
 
 
 
-[View Github repository](https://github.com/jeffatoptics/jeff-minima)  &nbsp; &nbsp; &nbsp; &nbsp; [Download ZIP file](https://github.com/jeffatoptics/jeff-minima/archive/refs/heads/master.zip)
- 
+[View Github repository](https://github.com/jeffatoptics/jeff-minima)  &nbsp; &nbsp; &nbsp; &nbsp; [Download ZIP file](https://github.com/jeffatoptics/jeff-minima/archive/refs/heads/master.zip) &nbsp; &nbsp; &nbsp; &nbsp; [README](./README.md)
+
+- refer to link syntax in [linkdemo.md](linkdemo.md) and [post for image link demo](./_posts/2022-03-27-this-post-for-image-link-demo.md)
+
 <!-- <ul>
   {% for post in site.posts %}
     <li>
@@ -19,5 +21,3 @@ list_title: "daily note"
     </li>
   {% endfor %}
 </ul>  -->
-
-

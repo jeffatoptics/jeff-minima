@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "link demo"
-categories: note3
+categories: 锻炼
 author:
 - jeffatoptics
 ---
@@ -26,3 +26,6 @@ link demo with markdown syntax and jekyll syntax
 - baseurl value:{{ site.baseurl }}
 
 - url value: {{ site.url }}
+
+- [back](./2022-04-26-this-post-demonstrates-post-content-styles.md) 
+- [next](./2022-04-27-example2%20.md)

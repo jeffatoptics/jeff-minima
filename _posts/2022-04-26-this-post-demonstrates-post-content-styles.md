@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "This post demonstrates post content styles"
-categories: note1
+categories: life
 author:
 - Bart Simpson
 - Nelson Mandela Muntz

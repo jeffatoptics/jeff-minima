@@ -2,7 +2,7 @@
 layout: page
 title: demo of links in to markdown files 
 ---
-## demo of links to markdown files
+## demo of link syntax (link to markdown files)
 
 - markdown syntax: [link to a file in post](./_posts/2022-04-26-this-post-demonstrates-post-content-styles.md)
 
@@ -20,15 +20,15 @@ title: demo of links in to markdown files
 
 - post_url value: {% post_url 2022-04-26-this-post-demonstrates-post-content-styles %}
 
-`{% post_url 2022-04-26-this-post-demonstrates-post-content-styles %}`
+`{% raw %}{% post_url 2022-04-26-this-post-demonstrates-post-content-styles %}{% endraw %}`
 
 - link value: {{ site.baseurl }}{% post_url 2022-04-26-this-post-demonstrates-post-content-styles %}
 
- `{{ site.baseurl }}{% post_url 2022-04-26-this-post-demonstrates-post-content-styles %}`
+ `{% raw %}{{ site.baseurl }}{% post_url 2022-04-26-this-post-demonstrates-post-content-styles %}{% endraw %}`
 
-- baseurl:{{ site.baseurl }}   `{{ site.baseurl }}`
+- baseurl:{{ site.baseurl }}   `{% raw %}{{ site.baseurl }}{% endraw %}`
 
-- url {{ site.url }} `{{ site.url }}`
+- url {{ site.url }} `{% raw %}{{ site.url }}{% endraw %}`
 
 ## image links
 
