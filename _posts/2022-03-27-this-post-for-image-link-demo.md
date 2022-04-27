@@ -8,8 +8,9 @@ title: demo a image as summary
 
 above is cross-folder reference with markdown syntax, it works for all relative folders
 
-![](/images/dophin.jpg)
+![](./images/dophin.jpg)
 
+[link](./images/dophin.jpg)
 
 above is cross-folder reference with markdown syntax,
 

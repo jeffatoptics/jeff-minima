@@ -30,10 +30,11 @@ list_title: "daily note"
 
     - url {{ site.url }}
 
-- image link in posts 
+- image link does not work for links in posts 
 
   ![](./_posts/images/dophin.jpg)
-
+   
+  [link](./_posts/images/dophin.jpg)
  
 <!-- <ul>
   {% for post in site.posts %}
