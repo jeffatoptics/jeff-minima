@@ -6,7 +6,7 @@
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 #
 title: HOME
-layout: home
+layout: page
 list_title: "daily note"
 ---
 
@@ -30,6 +30,8 @@ list_title: "daily note"
 
     - url {{ site.url }}
 
+
+ 
 <ul>
   {% for post in site.posts %}
     <li>
@@ -37,5 +39,6 @@ list_title: "daily note"
       {{ post.excerpt }}
     </li>
   {% endfor %}
-</ul>
+</ul> 
+
 
