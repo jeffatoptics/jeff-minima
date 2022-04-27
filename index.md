@@ -15,15 +15,18 @@ list_title: "daily note"
 
 [View Github repository](https://github.com/jeffatoptics/jeff-minima)
 
-[link to a file in post](./_posts/2022-04-26-this-post-demonstrates-post-content-styles.md)
+## link demo
 
-- {% post_url 2022-04-26-this-post-demonstrates-post-content-styles %}
+- makdown syntax: [link to a file in post](./_posts/2022-04-26-this-post-demonstrates-post-content-styles.md)
 
-- {{ site.baseurl }}{% post_url 2022-04-26-this-post-demonstrates-post-content-styles %}
 
-- baseurl:{{ site.baseurl }}
+-  with jeklly syntax [link demo]({{ site.baseurl }}{% post_url 2022-04-26-this-post-demonstrates-post-content-styles %})
 
-- url {{ site.url }}
+    - post_url value: {% post_url 2022-04-26-this-post-demonstrates-post-content-styles %}
 
-- [link demo]({{ site.baseurl }}{% post_url 2022-04-26-this-post-demonstrates-post-content-styles %})
+    - link value: {{ site.baseurl }}{% post_url 2022-04-26-this-post-demonstrates-post-content-styles %}
+
+    - baseurl:{{ site.baseurl }}
+
+    - url {{ site.url }}
 

@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /category/
-title: category
+title: Category
 ---
 
 {% for cgy in site.categories %}
