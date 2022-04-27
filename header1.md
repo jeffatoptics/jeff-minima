@@ -1,3 +1,7 @@
+---
+permalink: /history/
+---
+
 ## Change History
 
 ### 2022-04-26 
