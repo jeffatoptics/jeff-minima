@@ -26,7 +26,13 @@ simplify the [jekyll/minima](https://github.com/jekyll/minima), and use these fi
 ## usage
 
 1. copy all the files to the local folder.
-1. customizing the `author name` `email` `description` in [_config.yml](_config.yml)
-1. customizing the ``
+1. customizing the `author name` `email` `description` in `_config.yml`
+1. customizing the `index.md`
 1. move/delete the templated files from `_posts` folder after you read the link syntax
 1. input the markdown files to `_posts`  folder
+
+## link syntax recommendation
+
+- use markdown syntax rather than jekyll.
+
+    - 
