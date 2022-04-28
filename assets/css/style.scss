@@ -5,12 +5,4 @@
 @import
   "minima/skins/{{ site.minima.skin | default: 'classic' }}",
   "minima/initialize";
-
-.site-title::before {
-  content: url("/assets/images/logo.jpg");
-  display: inline-block;
-  position: relative;
-  width: 5px;
-  top: 10px;
-  height: 30px;
-  }
+  
