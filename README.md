@@ -12,7 +12,7 @@ title: A simplified minima template
 
 - write markdown file locally, and push to github
 
-<img src="https://pic4.zhimg.com/80/v2-bb3a7c4188c8ccc6b1fdcf356c823f24.gif" alt="jeff-minima" width=800>
+<img src="https://pic4.zhimg.com/80/v2-b07de587e42e790c762525049052f332.gif" alt="jeff-minima" width=600>
 
 ## major changes from minima
 
@@ -39,7 +39,7 @@ title: A simplified minima template
 1. input your markdown notes to `_posts`  folder with proper naming "yyyy-mm-dd-topic.md"
 
 > 📑 **link syntax recommendation**
->- use markdown syntax rather than jekyll syntaxk, which is easy for local mardown editor preview.
+>- use markdown syntax rather than jekyll, which is easy for local mardown editor preview.
 >-  `<img>` html syntax is not working in jekyll `_posts` folder. 
 >- Examples:
 >    - `[link to a file in post](./_posts/2022-04-26-this-post-demonstrates-post-content-styles.md)`
