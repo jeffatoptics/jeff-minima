@@ -21,11 +21,11 @@ demo link: [https:// jeffatoptics.github.io/jeff-minima/](https://jeffatoptics.g
 
 1. remove all the unnecessary files
 
-1. set content width  to 1280 px 
+1. set content width  to 1200 px 
     ```
-    $content-width:    1280px !default;
+    $content-width:    1200px !default;
     $on-palm:          600px !default;
-    $on-laptop:        1280px !default;
+    $on-laptop:        1200px !default;
     ```
 1. set the font text color to `"#dddddd"` in `dark.scss` , which is brighter than the default value `"#bbbbbb"`， also make `$brand-color-light` to lighter 15% from default 5%
 
