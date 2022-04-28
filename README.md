@@ -29,6 +29,8 @@ demo link: [https:// jeffatoptics.github.io/jeff-minima/](https://jeffatoptics.g
     ```
 1. set the font text color to `"#dddddd"` in `dark.scss` , which is brighter than the default value `"#bbbbbb"`， also make `$brand-color-light` to lighter 15% from default 5%
 
+1. set the relative link as true for posts and collections
+
 1. add the [category.md](category.md) to show the posts in categories
 
 1. set the skin to dark, `show_excerpts` to true
