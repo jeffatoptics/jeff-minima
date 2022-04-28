@@ -6,9 +6,14 @@ title: A simplified minima template
 
 ## purpose
 
-simplify the [jekyll/minima](https://github.com/jekyll/minima), and use these files as template
+- simplify the [jekyll/minima](https://github.com/jekyll/minima), and use these files as template
 
-   
+- auto display the posts (dailynote) per date-time, and a category page summrizing the posts (dailynote) by category
+
+- write markdown file locally, and push to github
+
+<img src="https://pic4.zhimg.com/80/v2-bb3a7c4188c8ccc6b1fdcf356c823f24.gif" alt="jeff-minima" width=800>
+
 ## major changes from minima
 
 1. remove all the unnecessary files
