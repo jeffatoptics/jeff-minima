@@ -48,5 +48,5 @@ demo link: [https:// jeffatoptics.github.io/jeff-minima/](https://jeffatoptics.g
 >-  `<img>` html syntax is not working in jekyll `_posts` folder. 
 >- Examples:
 >    - `[link to a file in post](./_posts/2022-04-26-this-post-demonstrates-post-content-styles.md)`
->    - `![](../assets/images/dophin.jpg)`
->    - `![](../assets/images/dophin.jpg){: width="250"}`  #comment `{width}` is not markdown syntax,but we have to use there to control the width
+>    - `![](../assets/images/dolphin.jpg)`
+>    - `![](../assets/images/dolphin.jpg){: width="250"}`  #comment `{width}` is not markdown syntax,but we have to use there to control the width
