@@ -12,7 +12,7 @@ title: A simplified minima template
 
 - write markdown file locally, and push to github
 
-<img src="https://pic4.zhimg.com/80/v2-b07de587e42e790c762525049052f332.gif" alt="jeff-minima" width=600>
+<img src="https://pic4.zhimg.com/80/v2-b07de587e42e790c762525049052f332.gif" alt="jeff-minima" width=800>
 
 ## major changes from minima
 
