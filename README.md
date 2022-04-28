@@ -4,11 +4,14 @@ permalink: readme.html
 title: A simplified minima template
 ---
 
+demo link: [https:// jeffatoptics.github.io/jeff-minima/](https://jeffatoptics.github.io/jeff-minima/)
+
+
 ## purpose
 
 - simplify the [jekyll/minima](https://github.com/jekyll/minima), and use these files as template
 
-- auto display the posts (dailynote) per date-time, and a category page summrizing the posts (dailynote) by category
+- auto display the posts (dailynote) per date-time, and a category page summarizing the posts (dailynote) by category
 
 - write markdown file locally, and push to github
 
