@@ -1,7 +1,7 @@
 @charset "utf-8";
 
 $brand-color:           #999999 !default;
-$brand-color-light:     lighten($brand-color, 5%) !default;
+$brand-color-light:     lighten($brand-color, 15%) !default;
 $brand-color-dark:      darken($brand-color, 35%) !default;
 
 $site-title-color:      $brand-color-light !default;
@@ -25,6 +25,7 @@ $table-header-border:   lighten($background-color, 21%) !default;
 $table-border-color:    $border-color-01 !default;
 
 //$text-color:            #bbbbbb !default;
+//$brand-color-light:     lighten($brand-color, 5%) !default;
 
 // Syntax highlighting styles should be adjusted appropriately for every "skin"
 // List of tokens: https://github.com/rouge-ruby/rouge/wiki/List-of-tokens
