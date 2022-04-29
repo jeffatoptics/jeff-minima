@@ -9,6 +9,7 @@ title: Category
   <ul>
     {% for post in cgy[1] %}
       <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+      {{ post.date }}
       {{ post.excerpt }}
     {% endfor %}
   </ul>
