@@ -2,6 +2,7 @@
 title: HOME
 layout: home
 list_title: "daily note"
+math: katex
 ---
 
 <p align=left>
