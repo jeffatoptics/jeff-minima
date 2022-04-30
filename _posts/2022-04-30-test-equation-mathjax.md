@@ -19,11 +19,32 @@ test latex
 $ e = m c^2 $
 
 
-inline: $$ f(x) = \int_{-\infty}^\infty \hat f(\xi)\,e^{2 \pi i \xi x} \,d\xi $$
+inline: $f(x) = \int_{-\infty}^\infty \hat f(\xi)\,e^{2 \pi i \xi x} \,d\xi$
+inline: $$f(x) = \int_{-\infty}^\infty \hat f(\xi)\,e^{2 \pi i \xi x} \,d\xi$$
 
 display mode (centered):
 
+
+$$ f(x) = \int_{-\infty}^\infty \hat f(\xi)\,e^{2 \pi i \xi x} \,d\xi $$
+
+
 $$f(x) = \int_{-\infty}^\infty \hat f(\xi)\,e^{2 \pi i \xi x} \,d\xi$$
+
+
+$$
+y=\frac{1}{2} \times \sqrt{x^2-1} \\
+y=\cfrac{1}{2+\cfrac{1}{2}}     \\
+y=\int \! (x^2-1) dx             \\
+y=\int (x^2-1) dx                \\
+y=\int_{a}^{b=10} (x^2-1) dx            \\
+y=\sum_{x=1}^ {100} (x^2-1)- 1          \\
+BER= erfc(\frac{Q}{\sqrt(2)})
+$$
+ 
+$$
+\fbox {this is a demo equation: }    \\
+BER= erfc(\frac{Q}{\sqrt(2)})
+$$
 
 
 
