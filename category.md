@@ -2,6 +2,7 @@
 layout: page
 permalink: /category/
 title: Category
+math: katex
 ---
 
 {% for cgy in site.categories %}
