@@ -2,7 +2,7 @@
 layout: post
 title: "test mermaid"
 categories: markdown
-math: 
+mermaid: true 
 author:
 - jeffatoptics
 ---
@@ -87,6 +87,8 @@ pie
 </div>
 
 <div class="mermaid">
+%%{init: {'theme':'dark'}}%%
+
 gantt
     title A Gantt Diagram
     dateFormat  YY-MM-DD
@@ -117,18 +119,3 @@ sequenceDiagram
     Remote->>Local: Data
     Local->>Remote: Data
 </div>
-
-
-## sequence
-sequence is similar to **mermaid** `sequenceDiagram`, but it supports hands style.
-
-
-
-
-<script type="text/javascript"
-  src="https://unpkg.com/mermaid@9.0.1/dist/mermaid.min.js">
-</script>
-
-<script>
-mermaid.initialize({'theme': 'forest', 'themeVariables': {'lineColor': 'green'}});
-</script>
