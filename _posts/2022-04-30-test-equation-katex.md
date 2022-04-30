@@ -39,6 +39,7 @@ $$
 test latex
 
 this is inline function $f(x) = \int_{-\infty}^\infty \hat f(\xi)\,e^{2 \pi i \xi x} \,d\xi$ test
+
 $ e = m c^2 $
 
 inline: $$f(x) = \int_{-\infty}^\infty \hat f(\xi)\,e^{2 \pi i \xi x} \,d\xi$$
