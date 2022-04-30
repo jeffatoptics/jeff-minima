@@ -2,6 +2,7 @@
 layout: post
 title: "test equation in katex"
 categories: markdown
+math: katex
 author:
 - jeffatoptics
 ---
