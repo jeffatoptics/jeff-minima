@@ -101,6 +101,8 @@ gantt
 
 
 <div class="mermaid">
+%%{init: {'theme':'dark'}}%%
+
 sequenceDiagram 
     participant Local
     participant Remote
@@ -120,22 +122,7 @@ sequenceDiagram
 ## sequence
 sequence is similar to **mermaid** `sequenceDiagram`, but it supports hands style.
 
-<div class="mermaid">
 
-sequence
-    participant Local
-    participant Remote
-    Local->Remote: LOS is detected
-    Note right of Remote: LOS will trigger RFI
-    Remote->>Local: RFI
-    Local->>Remote: Idle 
-    Note left of Local: RFI will stop transmission \n and triggers idle
-    
-    Local-->>Remote: LOS clear
-    Note right of Remote: idle is received \n after LOS clear
-    Remote->>Local: Data
-    Local->>Remote: Data
-</div>
 
 
 <script type="text/javascript"
