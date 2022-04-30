@@ -17,11 +17,26 @@ graph TD;
     C-->D;
 ```
 
-<div class="mermaid"> graph TD; A-->B; A-->C; B-->D; C-->D; </div>
+<div class="mermaid"> 
+graph TD; 
+A-->B; A-->C; B-->D; C-->D; 
+</div>
 
-<script async src="https://unpkg.com/mermaid@8.2.3/dist/mermaid.min.js"></script>
 
 <div class="mermaid">
 graph LR;
   A-->B;
 </div>
+
+<!-- <script async src="https://unpkg.com/mermaid@8.2.3/dist/mermaid.min.js"></script> -->
+
+<script async type="text/javascript"
+  src="https://unpkg.com/mermaid@9.0.1/dist/mermaid.min.js">
+</script>
+<script>
+$(document).ready(function() {
+    mermaid.initialize({
+        theme: 'forest'
+    });
+});
+</script>
