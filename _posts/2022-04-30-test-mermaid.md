@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "test mermad"
+title: "test mermaid"
 categories: markdown
 math: 
 author:
@@ -20,7 +20,7 @@ graph TD;
 <div class="mermaid"> 
 graph TD; 
 A-->B; A-->C; B-->D; C-->D; 
-</div>
+</div>  
 
 
 <div class="mermaid">
@@ -33,10 +33,7 @@ graph LR;
 <script async type="text/javascript"
   src="https://unpkg.com/mermaid@9.0.1/dist/mermaid.min.js">
 </script>
+
 <script>
-$(document).ready(function() {
-    mermaid.initialize({
-        theme: 'forest'
-    });
-});
+mermaid.initialize({theme: 'forest'});
 </script>
