@@ -9,7 +9,6 @@ author:
 
 this is to test mermaid:
 
-<script src="/assets/js/mermaid.min.js"></script>
 ```mermaid
 graph TD;
     A-->B;
@@ -17,8 +16,12 @@ graph TD;
     B-->D;
     C-->D;
 ```
+
 <div class="mermaid"> graph TD; A-->B; A-->C; B-->D; C-->D; </div>
 
-<script>
-mermaid.init({noteMargin: 10}, ".language-mermaid");
-</script>
+<script async src="https://unpkg.com/mermaid@8.2.3/dist/mermaid.min.js"></script>
+
+<div class="mermaid">
+graph LR;
+  A-->B;
+</div>
