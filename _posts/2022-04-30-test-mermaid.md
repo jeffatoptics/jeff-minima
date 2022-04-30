@@ -50,5 +50,5 @@ graph LR;
 </script>
 
 <script>
-mermaid.initialize({'theme': 'dark'});
+mermaid.initialize({'theme': 'forest'});
 </script>
