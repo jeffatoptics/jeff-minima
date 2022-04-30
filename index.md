@@ -1,5 +1,5 @@
 ---
-title: HOME
+title: 🏡
 layout: home
 list_title: "daily note"
 math: katex

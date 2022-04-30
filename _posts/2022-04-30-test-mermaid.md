@@ -24,14 +24,14 @@ A-->B; A-->C; B-->D; C-->D;
 
 
 <div class="mermaid">
-%%{init: {'theme':'forest'}}%%
+%%{init: {'theme':'forest', 'themeVariables': { 'lineColor': 'green'}}}%%
 graph LR;
   A-->B;
 </div>
 
 
 <div class="mermaid">
-%%{init: {'theme':'base'}}%%
+%%{init: {'theme':'forest'}}%%
 graph LR;
   A-->B;
 </div>
@@ -50,5 +50,5 @@ graph LR;
 </script>
 
 <script>
-mermaid.initialize({'theme': 'forest'});
+mermaid.initialize({'theme': 'forest', 'themeVariables': {'lineColor': 'green'}});
 </script>
