@@ -1,10 +1,8 @@
 ---
-title: 🏡
+title: 🏡 - no picture
 layout: home
-list_title: "daily note"
+list_title: ""
 math: katex
 ---
-<p align=left>
-<img width=600 style="float:none" src="./assets/images/dolphin.jpg" /> </p>
 
 [View Github repository](https://github.com/jeffatoptics/jeff-minima)  &nbsp; &nbsp; &nbsp; &nbsp; [Download ZIP file](https://github.com/jeffatoptics/jeff-minima/archive/refs/heads/master.zip) &nbsp; &nbsp; &nbsp; &nbsp; [README](README.md)
