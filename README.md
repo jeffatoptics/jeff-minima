@@ -23,11 +23,11 @@ Enhance [jekyll/minima](https://github.com/jekyll/minima) template with the supp
 
 1. add a [category page](./category.md)
 
-There are also minor changes of theme layout and color:
+Minor changes of theme layout and color:
 
-- set the minima content-width to 1000px: `$content-width` in [`./_sass/minima/initialize.scss`](./_sass/minima/initialize.scss). The default was 800px
+1. set the minima content-width to 1000px: `$content-width` in [`./_sass/minima/initialize.scss`](./_sass/minima/initialize.scss). The default was 800px
 
-- adjust the dark scheme font `$text-color` in [`./_sass/minima/initialize.scss`](./_sass/minima/initialize.scss) to lighter value as `eeeeee`. `$brand-color-light` lighter is adjusted from 5% to 35%
+1. adjust the dark scheme font `$text-color` in [`./_sass/minima/initialize.scss`](./_sass/minima/initialize.scss) to lighter value as `eeeeee`. `$brand-color-light` lighter is adjusted from 5% to 35%
 
 
 ## Usage
@@ -44,11 +44,9 @@ There are also minor changes of theme layout and color:
 1. katex  is using `$ <latex> $` as inline equation, `$$ <latex> $$`  or 
 
 ```
-
 $$
 <latex>
 $$
-
 ``` 
 
 for math block. katex is quicker than mathjax. 
@@ -70,9 +68,7 @@ graph LR;
 </div>
 ```
 > 📑 **link syntax recommendation**
-
-jekyll liquid syntax always works, but I would recommend to use markdown relative syntax as much as possible. 
->- Examples:
->    - `[link to a file in post](./_posts/2022-04-26-this-post-demonstrates-post-content-styles.md)`
->    - `![link to a file in asset](../assets/images/dolphin.jpg)`
->    - `![](../assets/images/dolphin.jpg){: width="250"}`  
+> jekyll liquid syntax always works, but I would recommend to use **markdown relative syntax** as much as possible to align to local markdown editor. Examples:
+>- `[link to a file in post](./_posts/2022-04-26-this-post-demonstrates-post-content-styles.md)`
+>- `![link to a file in asset](../assets/images/dolphin.jpg)`
+>- `![](../assets/images/dolphin.jpg){: width="250"}`  
