@@ -41,34 +41,32 @@ Minor changes of theme layout and color:
 
 ## Syntax
 
-1. katex  is using `$ <latex> $` as inline equation, `$$ <latex> $$`  or 
+1. katex  is using `$ <latex> $` as inline equation, `$$ <latex> $$`  and 
 
-```
-$$
-<latex>
-$$
-``` 
+    ```
+    $$
+    <latex>
+    $$
+    ``` 
+    for math block. 
 
-for math block. katex is quicker than mathjax. 
+1. mathjax is using `$ <latex> $` and `$$ <latex> $$` for inline, and
 
-2. mathjax is using `$ <latex> $` and `$$ <latex> $$` for inline, and
+    ```
+    $$
+    <latex>
+    $$
+    ``` 
+1. mermaid is using the syntax with `<div>`.
 
-```
-$$
-<latex>
-$$
-``` 
-
-3. mermaid is using the following syntax with `<div>`.
-
-```html
-<div class="mermaid">
-graph LR;
- A-->B;
-</div>
-```
-> 📑 **link syntax recommendation**
-> jekyll liquid syntax always works, but I would recommend to use **markdown relative syntax** as much as possible to align to local markdown editor. Examples:
->- `[link to a file in post](./_posts/2022-04-26-this-post-demonstrates-post-content-styles.md)`
->- `![link to a file in asset](../assets/images/dolphin.jpg)`
->- `![](../assets/images/dolphin.jpg){: width="250"}`  
+    ```html
+    <div class="mermaid">
+    graph LR;
+    A-->B;
+    </div>
+    ```
+1. link syntax recommendation
+    jekyll liquid syntax always works, but I would recommend to use **markdown relative syntax** as much as possible to align to local markdown editor. Examples:
+    - `[link to a file in post](./_posts/2022-04-26-this-post-demonstrates-post-content-styles.md)`
+    - `![link to a file in asset](../assets/images/dolphin.jpg)`
+    - `![](../assets/images/dolphin.jpg){: width="250"}`  
