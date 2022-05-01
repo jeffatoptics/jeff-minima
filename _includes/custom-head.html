@@ -41,14 +41,15 @@
 
  {% endif %}
 
- {% if page.mermaid %}
+ {% if page.mermaid=="dark" or page.mermaid=="default" or page.mermaid=="forest" or page.mermaid=="neutral" or or page.mermaid=="base"  %}
  <script type="text/javascript" src="https://unpkg.com/mermaid@9.0.1/dist/mermaid.min.js">
 </script>
 <script>
     document.addEventListener("DOMContentLoaded", function () {
         mermaid.mermaidAPI.initialize({
-            'theme': 'forest', 'themeVariables': { 'lineColor': 'green' }
+            'theme': page.mermaid
         });
     });
 </script>
+
 {% endif %}

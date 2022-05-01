@@ -2,7 +2,7 @@
 layout: post
 title: "test mathjax with mermaid"
 categories: markdown
-mermaid: true
+mermaid: forest
 math: katex
 author:
 - jeffatoptics
