@@ -1,52 +1,79 @@
 ---
 layout: page
 permalink: readme.html
-title: A simplified minima template
+title: Add jekyll/minima template with the support of math and diagram - katex (mathjax) and  mermaid
 ---
 
-demo link: [https:// jeffatoptics.github.io/jeff-minima/](https://jeffatoptics.github.io/jeff-minima/)
+Demo link: [https:// jeffatoptics.github.io/jeff-minima/](https://jeffatoptics.github.io/jeff-minima/)
+
+## Purpose
+
+Enhance [jekyll/minima](https://github.com/jekyll/minima) template for publishing the notes in [Github pages](https://pages.github.com
+), with the support of **katex/mathjax** equation and **mermaid** diagram:
+
+- enable/disable **katex /mathjax** math support with `math: katex` or `math: mathjax` or nothing in page front matter.
+
+- enable/disable the **mermaid** support with `mermaid: default` `mermaid: dark` `mermaid: base` or `mermaid: neutral`  or nothing in page front matter.  
+
+- make a [category page](./category.md) to auto display the notes by their category attributes
+
+## Major changes from the [jekyll/minima](https://github.com/jekyll/minima)
 
 
-## purpose
+1. add the codes in **[custom-head.html](_includes/custom-head.html)** to support katex/mathjax and mermaid in `_includes` folder
 
-- simplify the [jekyll/minima](https://github.com/jekyll/minima), and use these files as template
+1. add a [category page](./category.md)
 
-- auto display the posts (dailynote) per date-time, and a category page summarizing the posts (dailynote) by category
+There are also minor changes of theme layout and color:
 
-- write markdown file locally, and push to github
+- set the minima content-width to 1000px: `$content-width` in [`./_sass/minima/initialize.scss`](./_sass/minima/initialize.scss). The default was 800px
 
-<img src="https://pic4.zhimg.com/80/v2-b07de587e42e790c762525049052f332.gif" alt="jeff-minima" width=800>
+- adjust the dark scheme font `$text-color` in [`./_sass/minima/initialize.scss`](./_sass/minima/initialize.scss) to lighter value as `eeeeee`. `$brand-color-light` lighter is adjusted from 5% to 35%
 
-## major changes from minima
 
-1. remove all the unnecessary files
-
-1. set content width  to 1200 px 
-    ```
-    $content-width:    1200px !default;
-    $on-palm:          600px !default;
-    $on-laptop:        1200px !default;
-    ```
-1. set the font text color to `"#dddddd"` in `dark.scss` , which is brighter than the default value `"#bbbbbb"`， also make `$brand-color-light` to lighter 15% from default 5%
-
-1. set the relative link as true for posts and collections
-
-1. add the [category.md](category.md) to show the posts in categories
-
-1. set the skin to dark, `show_excerpts` to true
-
-## usage
+## Usage
 
 1. copy all the files to the local folder.
-1. customizing the `author name` `email` `description` in `_config.yml`
+1. customizing the `author name` `email` `description` `skin` in `_config.yml`. skin are typically `default` or `dark`.
 1. customizing the `index.md`
-1. move/delete the templated files from `_posts` folder after you notice the link syntax
-1. input your markdown notes to `_posts`  folder with proper naming "yyyy-mm-dd-topic.md"
+1. delete the markdown template files in `_posts` folder, and input your own markdown with proper naming "yyyy-mm-dd-topic.md"
+1. delete the images in `assets` folder, and put your own, and link them with `_post` markdown files
+1. remove or customize the md files in root, i.e. [about.md](about.md) [header1.md](header1.md) [readme.md](readme.md) and [index_simple.md]
 
+## Syntax
+
+1. katex  is using `$ <latex> $` as inline equation, `$$ <latex> $$`  or 
+
+```
+
+$$
+<latex>
+$$
+
+``` 
+
+for math block. katex is quicker than mathjax. 
+
+2. mathjax is using `$ <latex> $` and `$$ <latex> $$` for inline, and
+
+```
+$$
+<latex>
+$$
+``` 
+
+3. mermaid is using the following syntax with `<div>`.
+
+```html
+<div class="mermaid">
+graph LR;
+ A-->B;
+</div>
+```
 > 📑 **link syntax recommendation**
->- use markdown syntax rather than jekyll, which is easy for local mardown editor preview.
->-  `<img>` html syntax is not working in jekyll `_posts` folder. 
+
+jekyll liquid syntax always works, but I would recommend to use markdown relative syntax as much as possible. 
 >- Examples:
 >    - `[link to a file in post](./_posts/2022-04-26-this-post-demonstrates-post-content-styles.md)`
->    - `![](../assets/images/dolphin.jpg)`
->    - `![](../assets/images/dolphin.jpg){: width="250"}`  #comment `{width}` is not markdown syntax,but we have to use there to control the width
+>    - `![link to a file in asset](../assets/images/dolphin.jpg)`
+>    - `![](../assets/images/dolphin.jpg){: width="250"}`  
