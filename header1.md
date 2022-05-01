@@ -16,3 +16,10 @@ permalink: /history/
 
 - make a category page
 
+### 2022-05-01
+
+- update custom-head.html to support katex/mathjax and mermaid
+
+- update the template file
+
+

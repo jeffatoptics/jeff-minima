@@ -1,19 +1,18 @@
 ---
 layout: page
 permalink: readme.html
-title: Add jekyll/minima template with the support of math and diagram - katex (mathjax) and  mermaid
+title: support math and mermaid diagram in jekyll/minima theme
 ---
 
 Demo link: [https:// jeffatoptics.github.io/jeff-minima/](https://jeffatoptics.github.io/jeff-minima/)
 
 ## Purpose
 
-Enhance [jekyll/minima](https://github.com/jekyll/minima) template for publishing the notes in [Github pages](https://pages.github.com
-), with the support of **katex/mathjax** equation and **mermaid** diagram:
+Enhance [jekyll/minima](https://github.com/jekyll/minima) template with the support of **katex/mathjax** equation and **mermaid** diagram:
 
-- enable/disable **katex /mathjax** math support with `math: katex` or `math: mathjax` or nothing in page front matter.
+- enable **katex /mathjax** math support with `math: katex` or `math: mathjax` in page front matter.  disable with removing the above words.
 
-- enable/disable the **mermaid** support with `mermaid: default` `mermaid: dark` `mermaid: base` or `mermaid: neutral`  or nothing in page front matter.  
+- enable the **mermaid** support with `mermaid: default` `mermaid: dark` `mermaid: base` or `mermaid: neutral`  or nothing in page front matter.  disable with removing the above words. 
 
 - make a [category page](./category.md) to auto display the notes by their category attributes
 
