@@ -9,5 +9,6 @@ math: katex
 
  [View Github repository](https://github.com/jeffatoptics/jeff-minima)  | [Download ZIP file](https://github.com/jeffatoptics/jeff-minima/archive/refs/heads/master.zip) 
 ---|---
+ jeffatoptics/jeff-minima| master.zip
 
 ## **[README](README.md)**
