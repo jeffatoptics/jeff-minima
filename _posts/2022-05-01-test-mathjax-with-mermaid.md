@@ -3,7 +3,7 @@ layout: post
 title: "test mathjax with mermaid"
 categories: markdown
 mermaid: true
-math: mathjax
+math: katex
 author:
 - jeffatoptics
 ---
