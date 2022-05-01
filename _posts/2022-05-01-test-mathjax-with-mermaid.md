@@ -118,7 +118,7 @@ style B fill:#bbf
 </div>
 
 <div class="mermaid">
-%%{init: {'theme':'dark'}}%%
+%%{init: {'theme':'default', 'themeVariables': { 'darkMode': false}}}%%
 
 pie
     title Bugs in Software
