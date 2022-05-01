@@ -24,7 +24,7 @@ A-->B; A-->C; B-->D; C-->D;
 
 
 <div class="mermaid">
-%%{init: {'theme':'forest', 'themeVariables': { 'lineColor': 'green'}}}%%
+%%{init: {'theme':'default', 'themeVariables': { 'lineColor': 'green' }}}%%
 graph LR;
   A-->B;
 </div>
@@ -78,6 +78,7 @@ style B fill:#bbf
 </div>
 
 <div class="mermaid">
+%%{init: {'theme':'dark', 'themeVariables': { 'lineColor': 'green', 'textColor': 'yellow' }}}%%
 pie
     title Bugs in Software
     "transmission" : 15.00

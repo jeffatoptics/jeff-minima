@@ -118,6 +118,8 @@ style B fill:#bbf
 </div>
 
 <div class="mermaid">
+%%{init: {'theme':'dark'}}%%
+
 pie
     title Bugs in Software
     "transmission" : 15.00
