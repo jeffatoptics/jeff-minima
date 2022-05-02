@@ -7,19 +7,35 @@ author:
 - jeffatoptics
 ---
 
-this is to test mermaid:
+this is to test mermaid in dark theme
+front matter is specified as:
 
-```mermaid
+```
+---
+mermaid: dark 
+---
+```
+
+sytax is used as following:
+```
+
+<div class="mermaid"> 
 graph TD;
     A-->B;
     A-->C;
     B-->D;
     C-->D;
+</div>
+
 ```
+
 
 <div class="mermaid"> 
 graph TD; 
-A-->B; A-->C; B-->D; C-->D; 
+A-->B; 
+A-->C; 
+B-->D; 
+C-->D; 
 </div>  
 
 

@@ -80,5 +80,7 @@ $$
     BER= erfc(\frac{Q}{\sqrt{2}})
     $$
     ```
+## links:
 
-
+- [mathjax test](2022-04-29-test-equation-mathjax.md)
+- [display mermaid and katex together](./2022-04-28-test-katex-with-mermaid.md)

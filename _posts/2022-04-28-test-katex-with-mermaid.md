@@ -161,3 +161,9 @@ sequenceDiagram
     Remote->>Local: Data
     Local->>Remote: Data
 </div>
+
+## links
+
+- [test katex](./2022-04-30-test-equation-katex.md)
+
+- [mathjax test](2022-04-29-test-equation-mathjax.md)
