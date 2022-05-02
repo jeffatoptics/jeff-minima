@@ -6,6 +6,8 @@ title: Support math and mermaid in jekyll/minima theme
 
 Demo link: [https://jeffatoptics.github.io/jeff-minima/](https://jeffatoptics.github.io/jeff-minima/)
 
+![jeff-minima](https://pic4.zhimg.com/80/v2-210dca306ac65bcf521a7c5e401589f8.gif)
+
 ## Purpose
 
 Enhance [jekyll/minima](https://github.com/jekyll/minima) template with the support of **katex/mathjax** equation and **mermaid** diagram:
