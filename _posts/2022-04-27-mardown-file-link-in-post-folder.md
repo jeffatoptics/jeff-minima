@@ -1,17 +1,23 @@
 ---
 layout: post
-title: "link demo"
-categories: 锻炼
+title: "link demo in post folder"
+categories: link syntax
 author:
 - jeffatoptics
 ---
 
-link demo with markdown syntax and jekyll syntax
+Recommend to use the relative link markdown syntax 
 
-## markdown link works 
+## Relative link markdown syntax  
 
+- [home](../index.md) 
+- [next](2022-03-27-image-link-demo.md)
+
+```
 - [home](../index_image.md) 
 - [next](2002-04-21-test-date.md)
+```
+
 
 
 ## jeklly link also works 
@@ -27,5 +33,5 @@ link demo with markdown syntax and jekyll syntax
 
 - url value: {{ site.url }}
 
-- [back](./2022-04-26-this-post-demonstrates-post-content-styles.md) 
+- [back](2022-03-26-markdown-content-styles.md) 
 - [next](./2022-04-27-example2%20.md)

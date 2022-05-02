@@ -31,7 +31,7 @@ They are related to the theme layout and color:
 
 1. adjust the dark scheme font `$text-color` in [`./_sass/minima/initialize.scss`](./_sass/minima/initialize.scss) to a lighter value as `eeeeee`. it was `bbbbbb` `$brand-color-light` is adjusted from 5% to 35%
 
-1. add an emoji favicon 🐬 in customer-head.html. you can change it to any emoji or remove the wording `<link rel="icon"..`
+1. add an emoji favicon 🐬 in customer-head.html. you can change it to any emoji or remove the line `<link rel="icon"..`
 
 
 ## Usage
