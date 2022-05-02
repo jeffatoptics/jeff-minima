@@ -37,7 +37,7 @@ They are related to the theme layout and color:
 ## Usage
 
 1. copy all the files to the local folder.
-1. customizing the `author name` `email` `description` `skin` in `_config.yml`. skin are typically `default` or `dark`.
+1. customizing the `author name` `email` `description` `skin` in `_config.yml`. skin are typically `classic`,`dark`,`solarized-dark` and `solarized`
 1. customizing the `index.md`
 1. delete the markdown template files in `_posts` folder, and input your own markdown with name "yyyy-mm-dd-topic.md"
 1. delete the images in `assets` folder, and put your own, and link them with `_post` markdown files
