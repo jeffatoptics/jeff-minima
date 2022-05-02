@@ -22,4 +22,13 @@ permalink: /history/
 
 - update the template file
 
+### 2022-05-02
+
+- update the template files
+
+- add the auto theme
+
+- update readme doc
+
+- ✅ minima is finished
 

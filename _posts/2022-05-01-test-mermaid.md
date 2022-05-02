@@ -50,7 +50,6 @@ graph LR;
 ```
 
 
-```
 
 <div class="mermaid"> 
 graph TD; 

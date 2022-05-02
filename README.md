@@ -77,3 +77,17 @@ They are related to the theme layout and color:
     - `[link to a file in post](./_posts/2022-03-26-markdown-content-styles.md)`
     - `![link to a file in asset](../assets/images/dolphin.jpg)`
     - `![](../assets/images/dolphin.jpg){: width="250"}`  
+
+
+## Acknowledgement
+
+1. Auto theme code is directly copied from [sandervoerman/minima](https://github.com/sandervoerman/minima/blob/prefers-color-scheme/_sass/minima/skins/auto.scss)
+
+2. mathjax code is from link [https://zhuanlan.zhihu.com/p/36302775](https://zhuanlan.zhihu.com/p/36302775)
+
+3. katex reference: [https://www.xuningyang.com/blog/2021-01-11-katex-with-jekyll/](https://www.xuningyang.com/blog/2021-01-11-katex-with-jekyll/)
+
+4. Mermaid reference: 
+    - [https://jojozhuang.github.io/tutorial/jekyll-diagram-with-mermaid/](https://jojozhuang.github.io/tutorial/jekyll-diagram-with-mermaid/)
+
+    - [mermaid api](https://mermaid-js.github.io/mermaid/#/usage)
