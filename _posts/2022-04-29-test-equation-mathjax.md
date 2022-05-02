@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "test equation in mathjax"
-categories: markdown
+categories: math
 math: mathjax
 author:
 - jeffatoptics
@@ -25,7 +25,7 @@ $$
     $$
     K(a,b) = \int \mathcal{D}x(t) \exp(2\pi i S[x]/\hbar)
     $$
-    
+
     ```
     $$
     K(a,b) = \int \mathcal{D}x(t) \exp(2\pi i S[x]/\hbar)
@@ -72,3 +72,7 @@ $$
     BER= erfc(\frac{Q}{\sqrt{2}})
     $$
     ```
+
+## links
+- [test katex](./2022-04-30-test-equation-katex.md)
+- [display mermaid and katex together](./2022-04-28-test-katex-with-mermaid.md)

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "test mermaid"
-categories: markdown
+categories: mermaid
 mermaid: dark 
 author:
 - jeffatoptics

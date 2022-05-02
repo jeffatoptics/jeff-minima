@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "test equation in katex"
-categories: markdown
+categories: math
 math: katex
 author:
 - jeffatoptics
