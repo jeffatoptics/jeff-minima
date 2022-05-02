@@ -10,7 +10,7 @@ link demo with markdown syntax and jekyll syntax
 
 ## markdown link works 
 
-- [home](../index.md) 
+- [home](../index_image.md) 
 - [next](2002-04-21-test-date.md)
 
 
