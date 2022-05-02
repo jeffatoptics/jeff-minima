@@ -37,7 +37,7 @@ author:
 
 - [home base url]({{ site.baseurl }})
 
-    {% draw %}
+    {% raw %}
     [home base url]({{ site.baseurl }})
     {% endraw %}
 
@@ -45,13 +45,13 @@ author:
 
 - [post link demo]({{ site.baseurl }}{% post_url 2022-03-26-markdown-content-styles %}): link to file in _posts
 
-    {% endraw %}
+    {% raw %}
     [post link demo]({{ site.baseurl }}{% post_url 2022-03-26-markdown-content-styles %})
     {% endraw %}
 
 - [link to root file ]({{ site.baseurl }}{% link header1 %}): link to file in root
 
-    {% endraw %}
+    {% raw %}
     [link to root file ]({{ site.baseurl }}{% link header1 %})
     {% endraw %}
 
@@ -60,13 +60,13 @@ author:
 
 - baseurl value: {{ site.baseurl }}
 
-    {% endraw %}
+    {% raw %}
     baseurl value: {{ site.baseurl }}
     {% endraw %}
 
 - url value: {{ site.url }}
 
-    {% endraw %}
+    {% raw %}
     url value: {{ site.url }}
     {% endraw %}
 
