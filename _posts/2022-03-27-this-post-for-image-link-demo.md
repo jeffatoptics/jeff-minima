@@ -22,9 +22,9 @@ above is asset-folder reference with markdown syntax, it works.
 `![](../assets/images/dolphin.jpg){: width="250"}`
 
 
-<img src="{{ site.baseurl }}{% link assets/images/dolphin.jpg %}" width=250/>
-<img src="{{ site.baseurl }}{% link assets/images/dolphin.jpg %}" width=250/>
-<img src="{{ site.baseurl }}{% link assets/images/dolphin.jpg %}" width=250/>
-<img src="{{ site.baseurl }}{% link assets/images/dolphin.jpg %}" width=250/>
+<img src="{{ site.baseurl }}{% link assets/images/dolphin.jpg %}" width=225/>
+<img src="{{ site.baseurl }}{% link assets/images/dolphin.jpg %}" width=225/>
+<img src="{{ site.baseurl }}{% link assets/images/dolphin.jpg %}" width=225/>
+<img src="{{ site.baseurl }}{% link assets/images/dolphin.jpg %}" width=225/>
 
 `{% raw %}<img src="{{ site.baseurl }}{% link assets/images/dolphin.jpg %}" width=250/>{% endraw %}`
