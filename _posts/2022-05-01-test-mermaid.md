@@ -7,8 +7,9 @@ author:
 - jeffatoptics
 ---
 
-this is to test mermaid in dark theme
-front matter is specified as:
+This is to test mermaid in dark theme.
+
+The front matter is specified as:
 
 ```
 ---
@@ -16,7 +17,8 @@ mermaid: dark
 ---
 ```
 
-sytax is used as following:
+The syntax is used with `<div>`
+
 ```
 
 <div class="mermaid"> 
@@ -29,37 +31,20 @@ graph TD;
 
 ```
 
-
 <div class="mermaid"> 
 graph TD; 
-A-->B; 
-A-->C; 
-B-->D; 
-C-->D; 
+  A-->B; 
+  A-->C; 
+  B-->D; 
+  C-->D; 
 </div>  
 
 
 <div class="mermaid">
-%%{init: {'theme':'default', 'themeVariables': { 'lineColor': 'green' }}}%%
+%%{init: {'theme':'forest', 'themeVariables': { 'lineColor': 'green' }}}%%
 graph LR;
   A-->B;
 </div>
-
-
-<div class="mermaid">
-%%{init: {'theme':'forest'}}%%
-graph LR;
-  A-->B;
-</div>
-
-
-<div class="mermaid">
-%%{init: {'theme':'dark'}}%%
-graph LR;
-  A-->B;
-</div>
-
-<!-- <script async src="https://unpkg.com/mermaid@8.2.3/dist/mermaid.min.js"></script> -->
 
 
 

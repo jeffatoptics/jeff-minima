@@ -8,7 +8,7 @@ author:
 - jeffatoptics
 ---
 
-test latex 
+katex equation and mermaid in `mermaid: forest` theme
 
 $$
 K(a,b) = \int \mathcal{D}x(t) \exp(2\pi i S[x]/\hbar)
@@ -47,16 +47,6 @@ $$
 BER= erfc(\frac{Q}{\sqrt(2)})
 $$
 
-this is to test mermaid:
-
-```mermaid
-graph TD;
-    A-->B;
-    A-->C;
-    B-->D;
-    C-->D;
-```
-
 <div class="mermaid"> 
 graph TD; 
 A-->B; A-->C; B-->D; C-->D; 
@@ -64,27 +54,9 @@ A-->B; A-->C; B-->D; C-->D;
 
 
 <div class="mermaid">
-%%{init: {'theme':'forest', 'themeVariables': { 'lineColor': 'green'}}}%%
 graph LR;
   A-->B;
 </div>
-
-
-<div class="mermaid">
-%%{init: {'theme':'forest'}}%%
-graph LR;
-  A-->B;
-</div>
-
-
-<div class="mermaid">
-%%{init: {'theme':'dark'}}%%
-graph LR;
-  A-->B;
-</div>
-
-<!-- <script async src="https://unpkg.com/mermaid@8.2.3/dist/mermaid.min.js"></script> -->
-
 
 
 
@@ -108,45 +80,8 @@ style B fill:#bbf,stroke:#000,stroke-width:4px,color:#f00,stroke-dasharray: 10 2
 linkStyle 0 stroke:#f00,stroke-width:4px
 </div>
 
-<div class="mermaid">
-flowchart LR
-A<==>B<-..->C
-A[this is a text]
-B[this is demo]
-style B fill:#bbf
-
-</div>
 
 <div class="mermaid">
-%%{init: {'theme': 'dark', 'themeVariables': { 'darkMode': false}}}%%
-
-pie
-    title Bugs in Software
-    "transmission" : 15.00
-    "alarm" : 25
-    "management" : 66
-    "performance" : 5
-</div>
-
-<div class="mermaid">
-%%{init: {'theme':'dark'}}%%
-
-gantt
-    title A Gantt Diagram
-    dateFormat  YY-MM-DD
-    axisFormat   %y-%m-%d
-    section Section 1
-    A task           :done, a1, 21-12-01, 20d
-    Another task     :active, after a1, 60d
-    section Section 2
-    B      :crit,22-02-12, 20d
-    milestone: milestone,20d
-</div>
-
-
-<div class="mermaid">
-%%{init: {'theme':'dark'}}%%
-
 sequenceDiagram 
     participant Local
     participant Remote
