@@ -16,7 +16,7 @@ $$
 > 📝 enable katex with front matter in current page:
 > ```
 > ---
-> math: katex
+> math: mathjax
 > ---
 > ```
 
@@ -25,6 +25,7 @@ $$
     $$
     K(a,b) = \int \mathcal{D}x(t) \exp(2\pi i S[x]/\hbar)
     $$
+    
     ```
     $$
     K(a,b) = \int \mathcal{D}x(t) \exp(2\pi i S[x]/\hbar)
