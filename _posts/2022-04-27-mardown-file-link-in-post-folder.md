@@ -26,6 +26,7 @@ author:
 
 ## jekyll link syntax
 
+refer to [jekyllrb doc](https://jekyllrb.com/docs/liquid/tags/)
 
 - [home url]({{ site.url }})
 
@@ -49,10 +50,10 @@ author:
     [post link demo]({{ site.baseurl }}{% post_url 2022-03-26-markdown-content-styles %})
     {% endraw %}
 
-- [link to root file ]({{ site.baseurl }}{% link header1 %}): link to file in root
+- [link to root file ]({{ site.baseurl }}{% link header1.md %}): link to file in root
 
     {% raw %}
-    [link to root file ]({{ site.baseurl }}{% link header1 %})
+    [link to root file ]({{ site.baseurl }}{% link header1.md %})
     {% endraw %}
 
 
