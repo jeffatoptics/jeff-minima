@@ -4,7 +4,7 @@ categories: 'link syntax'
 title: demonstrate links to image file
 ---
 
-![](../assets/images/dolphin.jpg){: width="600"}
+![link demo]({{ site.baseurl }}{% link assets/images/dolphin.jpg %}){: width="600"}
 
 1. `{% raw %}![link demo]({{ site.baseurl }}{% link assets/images/dolphin.jpg %}){% endraw %}`
 
