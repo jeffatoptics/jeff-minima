@@ -27,7 +27,7 @@ Recommend to use the relative link markdown syntax
 
 - [home base url]({{ site.baseurl }})
 
-- [post link demo]({{ site.baseurl }}{% post_url 2022-04-26-this-post-demonstrates-post-content-styles %})
+- [post link demo]({{ site.baseurl }}{% post_url 2022-03-26-markdown-content-styles %})
 
 - baseurl value:{{ site.baseurl }}
 

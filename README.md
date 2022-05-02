@@ -71,6 +71,6 @@ They are related to the theme layout and color:
     ```
 1. link syntax recommendation
     jekyll liquid syntax always works, but I would recommend to use **markdown relative syntax** as much as possible to align to local markdown editor. Examples:
-    - `[link to a file in post](./_posts/2022-04-26-this-post-demonstrates-post-content-styles.md)`
+    - `[link to a file in post](./_posts/2022-03-26-markdown-content-styles.md)`
     - `![link to a file in asset](../assets/images/dolphin.jpg)`
     - `![](../assets/images/dolphin.jpg){: width="250"}`  
