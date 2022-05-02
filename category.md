@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /category/
-title: Category
+title: 📑Category
 math: katex
 ---
 
