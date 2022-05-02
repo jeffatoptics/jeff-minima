@@ -7,6 +7,9 @@ author:
 - jeffatoptics
 ---
 
+$$
+f(x) = \int_{-\infty}^\infty \hat f(\xi)\,e^{2 \pi i \xi x} \,d\xi
+$$
 
 > 📝 enable katex with front matter in current page:
 > ```

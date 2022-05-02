@@ -29,48 +29,49 @@ author:
 refer to [jekyllrb doc](https://jekyllrb.com/docs/liquid/tags/)
 
 - [home url]({{ site.url }})
-
-    {% raw %}
-    [home url]({{ site.url }})
-    {% endraw %}
-
+    ```
+        {% raw %}
+        [home url]({{ site.url }})
+        {% endraw %}
+    ```
 
 
 - [home base url]({{ site.baseurl }})
-
+    ```
     {% raw %}
     [home base url]({{ site.baseurl }})
     {% endraw %}
-
+    ```
 
 
 - [post link demo]({{ site.baseurl }}{% post_url 2022-03-26-markdown-content-styles %}): link to file in _posts
-
+    ```
     {% raw %}
     [post link demo]({{ site.baseurl }}{% post_url 2022-03-26-markdown-content-styles %})
     {% endraw %}
-
+    ```
 - [link to root file ]({{ site.baseurl }}{% link header1.md %}): link to file in root
-
+    ```
     {% raw %}
     [link to root file ]({{ site.baseurl }}{% link header1.md %})
     {% endraw %}
-
+    ```
 
 ## jekyll variable values
 
 - baseurl value: {{ site.baseurl }}
 
+    ```
     {% raw %}
     baseurl value: {{ site.baseurl }}
     {% endraw %}
-
+    ```
 - url value: {{ site.url }}
-
+    ```
     {% raw %}
     url value: {{ site.url }}
     {% endraw %}
-
+    ```
 
 [image link demo](2022-03-27-image-link.md)
 
