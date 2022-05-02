@@ -31,6 +31,27 @@ graph TD;
 
 ```
 
+You can also define the mermaid theme with the `%% init`
+
+```
+<div class="mermaid">
+%%{init: {'theme':'forest', 'themeVariables': { 'lineColor': 'green' }}}%%
+graph LR;
+  A-->B;
+</div>
+```
+
+```
+<div class="mermaid">
+%%{init: {'theme':'dark', 'themeVariables': { 'lineColor': 'green', 'textColor': 'yellow' }}}%%
+graph LR;
+  A-->B;
+</div>
+```
+
+
+```
+
 <div class="mermaid"> 
 graph TD; 
   A-->B; 
