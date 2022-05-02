@@ -1,10 +1,10 @@
 ---
 layout: page
 permalink: readme.html
-title: support math and mermaid diagram in jekyll/minima theme
+title: Support math and mermaid in jekyll/minima theme
 ---
 
-Demo link: [https:// jeffatoptics.github.io/jeff-minima/](https://jeffatoptics.github.io/jeff-minima/)
+Demo link: [https://jeffatoptics.github.io/jeff-minima/](https://jeffatoptics.github.io/jeff-minima/)
 
 ## Purpose
 
@@ -23,6 +23,8 @@ Enhance [jekyll/minima](https://github.com/jekyll/minima) template with the supp
 
 1. Add a [category page](./category.md)
 
+
+
 ## Minor changes
 
 They are related to the theme layout and color:
@@ -33,6 +35,7 @@ They are related to the theme layout and color:
 
 1. add an emoji favicon 🐬 in customer-head.html. you can change it to any emoji or remove the line `<link rel="icon"..`
 
+1. copy the [sandervoerman/minima](https://github.com/sandervoerman/minima/blob/prefers-color-scheme/_sass/minima/skins/auto.scss) for auto theme support
 
 ## Usage
 

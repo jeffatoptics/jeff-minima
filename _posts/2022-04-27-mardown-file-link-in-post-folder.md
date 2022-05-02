@@ -1,37 +1,75 @@
 ---
 layout: post
-title: "link demo in post folder"
+title: "demonstrate links to markdown file in post folder"
 categories: link syntax
 author:
 - jeffatoptics
 ---
 
-Recommend to use the relative link markdown syntax 
+>📝 Recommend to use the relative link markdown syntax
 
 ## Relative link markdown syntax  
 
-- [home](../index.md) 
-- [next](2022-03-27-image-link-demo.md)
+- link to the file in root: [home](../index.md)
 
-```
-- [home](../index_image.md) 
-- [next](2002-04-21-test-date.md)
-```
+    ```
+    [home](../index.md) 
+    ```
+    
+- link to the file in _poster: [next](2022-03-27-image-link.md)
+
+    ```
+    [next](2002-04-21-test-date.md)
+    ```
 
 
 
-## jeklly link also works 
+## jekyll link syntax
 
 
 - [home url]({{ site.url }})
 
+    {% raw %}
+    [home url]({{ site.url }})
+    {% endraw %}
+
+
+
 - [home base url]({{ site.baseurl }})
 
-- [post link demo]({{ site.baseurl }}{% post_url 2022-03-26-markdown-content-styles %})
+    {% draw %}
+    [home base url]({{ site.baseurl }})
+    {% endraw %}
 
-- baseurl value:{{ site.baseurl }}
+
+
+- [post link demo]({{ site.baseurl }}{% post_url 2022-03-26-markdown-content-styles %}): link to file in _posts
+
+    {% endraw %}
+    [post link demo]({{ site.baseurl }}{% post_url 2022-03-26-markdown-content-styles %})
+    {% endraw %}
+
+- [link to root file ]({{ site.baseurl }}{% link header1 %}): link to file in root
+
+    {% endraw %}
+    [link to root file ]({{ site.baseurl }}{% link header1 %})
+    {% endraw %}
+
+
+## jekyll variable values
+
+- baseurl value: {{ site.baseurl }}
+
+    {% endraw %}
+    baseurl value: {{ site.baseurl }}
+    {% endraw %}
 
 - url value: {{ site.url }}
 
-- [back](2022-03-26-markdown-content-styles.md) 
-- [next](./2022-04-27-example2%20.md)
+    {% endraw %}
+    url value: {{ site.url }}
+    {% endraw %}
+
+
+[image link demo](2022-03-27-image-link.md)
+

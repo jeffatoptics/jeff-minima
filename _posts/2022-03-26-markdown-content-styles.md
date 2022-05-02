@@ -48,6 +48,33 @@ Vestibulum lacus tortor, ultricies id dignissim ac, bibendum in velit. Proin con
 </html>
 ```
 
+```bash
+
+ls -l
+pwd
+ping 127.0.0.1 -s 300
+
+```
+
+```python
+
+import re
+ts=r"Id: *(\d+) \n"
+tspat=re.compile(ts)
+reqid=[]
+flog=open('test.txt','r',encoding='utf-8')
+num=0
+for flogline in flog:
+    #print(flogline)
+    ss=tspat.search(flogline)
+    if ss:
+        num=num+1
+        print(num,"\t",ss.group(1))
+        reqid.append(ss.group(1))
+
+```
+
+
 
 In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris.
 
