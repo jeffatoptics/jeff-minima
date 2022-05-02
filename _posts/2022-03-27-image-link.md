@@ -1,6 +1,6 @@
 ---
 layout: post
-categories: 'link syntax'
+categories: 'link-syntax'
 title: demonstrate links to image file
 ---
 

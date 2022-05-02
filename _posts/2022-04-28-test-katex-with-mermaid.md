@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "test mathjax with mermaid"
-categories: mermaid
+categories: mermaid math
 mermaid: forest
 math: katex
 author:
