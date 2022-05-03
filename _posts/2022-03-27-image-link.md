@@ -23,14 +23,13 @@ title: demonstrate links to image file
 
     ![](../assets/images/dolphin.jpg){: width="250"}
 
-1. `{% raw %} <img src="{{ site.baseurl }}{% link assets/images/dolphin.jpg %}" width=225/>{% endraw %}`
+1. ```{% raw %} <img src="{{ site.baseurl }}{% link assets/images/dolphin.jpg %}" width=300/>{% endraw %}```
 
     html image syntax with jekyll liquid variables.
 
-    <img src="{{ site.baseurl }}{% link assets/images/dolphin.jpg %}" width=225/>
-    <img src="{{ site.baseurl }}{% link assets/images/dolphin.jpg %}" width=225/>
-    <img src="{{ site.baseurl }}{% link assets/images/dolphin.jpg %}" width=225/>
-    <img src="{{ site.baseurl }}{% link assets/images/dolphin.jpg %}" width=225/>
+    <img src="{{ site.baseurl }}{% link assets/images/dolphin.jpg %}" width=300/>
+    <img src="{{ site.baseurl }}{% link assets/images/dolphin.jpg %}" width=300/>
+    <img src="{{ site.baseurl }}{% link assets/images/dolphin.jpg %}" width=300/>
 
 [another demo in root folder](../demonstrate-links-in-root-folder.md.md)
 
