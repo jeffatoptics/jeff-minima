@@ -4,8 +4,9 @@ permalink: readme.html
 title: Support math and mermaid in jekyll/minima theme
 ---
 
-Demo link: [https://jeffatoptics.github.io/jeff-minima/](https://jeffatoptics.github.io/jeff-minima/)
+Demo link: [https://jeffatoptics.github.io/jeff-minima/](https://jeffatoptics.github.io/jeff-minima/readme.html)
 
+look at the below GIF file in [https://jeffatoptics.github.io/jeff-minima/](https://jeffatoptics.github.io/jeff-minima/readme.html)
 ![jeff-minima](https://pic4.zhimg.com/80/v2-210dca306ac65bcf521a7c5e401589f8.gif)
 
 ## Purpose
