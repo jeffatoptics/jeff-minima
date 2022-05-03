@@ -6,7 +6,7 @@ title: Support math and mermaid in jekyll/minima theme
 
 Demo link: [https://jeffatoptics.github.io/jeff-minima/readme.html](https://jeffatoptics.github.io/jeff-minima/readme.html)
 
-look at the below GIF file in [https://jeffatoptics.github.io/jeff-minima/readme.html](https://jeffatoptics.github.io/jeff-minima/readme.html)
+look at below GIF file in [https://jeffatoptics.github.io/jeff-minima/readme.html](https://jeffatoptics.github.io/jeff-minima/readme.html)
 
 ![jeff-minima](https://pic4.zhimg.com/80/v2-210dca306ac65bcf521a7c5e401589f8.gif)
 
@@ -39,7 +39,7 @@ They are related to the theme layout and color:
 
 1. add an emoji favicon 🐬 in customer-head.html. you can change it to any emoji or remove the line `<link rel="icon"..`
 
-1. copy auto theme code from [sandervoerman/minima](https://github.com/sandervoerman/minima/blob/prefers-color-scheme/_sass/minima/skins/auto.scss)
+1. copy auto theme code `auto.scss` from [sandervoerman/minima](https://github.com/sandervoerman/minima/blob/prefers-color-scheme/_sass/minima/skins/auto.scss)
 
 ## Usage
 
@@ -85,7 +85,7 @@ They are related to the theme layout and color:
 
 ## Acknowledgement
 
-1. Auto theme code is directly copied from [sandervoerman/minima](https://github.com/sandervoerman/minima/blob/prefers-color-scheme/_sass/minima/skins/auto.scss)
+1. Auto theme code from [sandervoerman/minima](https://github.com/sandervoerman/minima/blob/prefers-color-scheme/_sass/minima/skins/auto.scss)
 
 2. mathjax code is from link [https://zhuanlan.zhihu.com/p/36302775](https://zhuanlan.zhihu.com/p/36302775)
 
