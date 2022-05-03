@@ -39,7 +39,7 @@ They are related to the theme layout and color:
 
 1. add an emoji favicon 🐬 in customer-head.html. you can change it to any emoji or remove the line `<link rel="icon"..`
 
-1. copy the [sandervoerman/minima](https://github.com/sandervoerman/minima/blob/prefers-color-scheme/_sass/minima/skins/auto.scss) for auto theme support
+1. copy auto theme code from [sandervoerman/minima](https://github.com/sandervoerman/minima/blob/prefers-color-scheme/_sass/minima/skins/auto.scss)
 
 ## Usage
 
