@@ -19,13 +19,14 @@ title: demonstrate links to image file
 
 1. `![](../assets/images/dolphin.jpg){: width="250"}`
 
-    markdown relative link syntax with jekyll liquid for size definition. 
+    markdown relative link syntax with jekyll liquid for size definition.
+
     ![](../assets/images/dolphin.jpg){: width="250"}
 
-1. {% raw %} <img src="{{ site.baseurl }}{% link assets/images/dolphin.jpg %}" width=225/>{% endraw %}
+1. `{% raw %} <img src="{{ site.baseurl }}{% link assets/images/dolphin.jpg %}" width=225/>{% endraw %}`
 
     html image syntax with jekyll liquid variables.
-    absolute link reference
+
     <img src="{{ site.baseurl }}{% link assets/images/dolphin.jpg %}" width=225/>
     <img src="{{ site.baseurl }}{% link assets/images/dolphin.jpg %}" width=225/>
     <img src="{{ site.baseurl }}{% link assets/images/dolphin.jpg %}" width=225/>
