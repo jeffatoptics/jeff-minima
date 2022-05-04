@@ -31,7 +31,7 @@ title: demonstrate links to image file
     <img src="{{ site.baseurl }}{% link assets/images/dolphin.jpg %}" width=300/>
     <img src="{{ site.baseurl }}{% link assets/images/dolphin.jpg %}" width=300/>
 
-[another demo in root folder](../demonstrate-links-in-root-folder.md.md)
+[another demo in root folder](../demonstrate-links-in-root-folder.md)
 
 
 > ⚠️ **Do not put the images and files in `_posts` folder.**
