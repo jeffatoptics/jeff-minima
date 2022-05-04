@@ -41,6 +41,8 @@ They are related to the theme layout and color:
 
 1. copy auto theme code `auto.scss` from [sandervoerman/minima](https://github.com/sandervoerman/minima/blob/prefers-color-scheme/_sass/minima/skins/auto.scss)
 
+1. update the [`./_layouts/post.html`](./_layouts/post.html) to display the categries in each post page.
+
 ## Usage
 
 1. copy all the files to the local folder.
