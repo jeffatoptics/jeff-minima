@@ -1,8 +1,8 @@
 ---
 permalink: /history/
+title: Change History
 ---
 
-## Change History
 
 ### 2022-04-26 
 
@@ -30,5 +30,9 @@ permalink: /history/
 
 - update readme doc
 
-- ✅ minima is finished
 
+### 2022-05-04
+
+- update post template to display category names and links in each post page.
+
+- [x] minima is finished
