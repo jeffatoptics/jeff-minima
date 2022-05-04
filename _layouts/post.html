@@ -26,7 +26,7 @@ layout: default
       {%- endif -%}</p>
   </header>
 
-  <div class="post-categories">
+  <span class="post-categories">
     {% if post %}
       {% assign categories = post.categories %}
     {% else %}
@@ -36,7 +36,7 @@ layout: default
     <a href="{{site.baseurl}}/category/#{{category|slugize}}">{{category}}</a>
     {% unless forloop.last %}&nbsp;{% endunless %}
     {% endfor %}
-  </div>
+  </span>
 
   <div class="post-content e-content" itemprop="articleBody">
     {{ content }}
