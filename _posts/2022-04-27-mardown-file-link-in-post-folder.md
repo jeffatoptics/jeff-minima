@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "demonstrate links to markdown file in post folder"
-categories: 'link-syntax'
+categories: 
+- link syntax
 author:
 - jeffatoptics
 ---
