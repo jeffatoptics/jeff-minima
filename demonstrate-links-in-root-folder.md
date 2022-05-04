@@ -1,7 +1,7 @@
 ---
 layout: page
 title: demonstrate links in root folder
-category: 
+categories: 
 - link syntax 
 ---
 ## demo of link syntax (link to markdown files)
