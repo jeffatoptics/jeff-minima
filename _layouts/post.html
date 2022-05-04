@@ -24,16 +24,18 @@ layout: default
       {%- if forloop.last == false %}, {% endif -%}
       {% endfor %}
       {%- endif -%}
+
       {%- if page.categories -%}
+
       <span class="post-categories">
         [
         {% for category in page.categories %}
         <a href="{{site.baseurl}}/category/#{{category|slugize}}">{{category}}</a>
         {% unless forloop.last %},&nbsp;{% endunless %}
-        ]
         {% endfor %}
-        <span>
-          {%- endif -%}
+        ]
+      <span>
+      {%- endif -%}
     </p>
   </header>
 
