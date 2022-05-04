@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: demonstrate links in root folder
 categories: 
 - link syntax 
