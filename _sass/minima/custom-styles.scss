@@ -1,2 +1,53 @@
 // Placeholder to allow defining custom styles that override everything else.
 // (Use `_sass/minima/custom-variables.scss` to override variable defaults)
+.page-heading {
+    @include relative-font-size(1.75);
+}
+
+.post-list-heading {
+    @include relative-font-size(1.625);
+}
+
+
+
+
+.post-title,
+.post-content h1 {
+    @include relative-font-size(1.75);
+
+    @media screen and (min-width: $on-large) {
+        @include relative-font-size(1.75);
+    }
+}
+
+.post-content {
+    margin-bottom: $spacing-unit;
+
+    h1,
+    h2,
+    h3 {
+        margin-top: $spacing-unit * 2
+    }
+
+    h4,
+    h5,
+    h6 {
+        margin-top: $spacing-unit
+    }
+
+    h2 {
+        @include relative-font-size(1.625);
+
+        @media screen and (min-width: $on-large) {
+            @include relative-font-size(1.625);
+        }
+    }
+
+    h3 {
+        @include relative-font-size(1.375);
+
+        @media screen and (min-width: $on-large) {
+            @include relative-font-size(1.5);
+        }
+    }
+}
