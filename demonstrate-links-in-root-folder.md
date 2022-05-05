@@ -1,10 +1,9 @@
 ---
 layout: post
-title: demonstrate links in root folder
+title: Demonstrate links in root folder
 categories: 
 - link syntax 
 ---
-## demo of link syntax (link to markdown files)
 
 - link to a markdown file: [link to a file in post](_posts/2022-03-26-markdown-content-styles.md)
 
