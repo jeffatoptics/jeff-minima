@@ -5,7 +5,7 @@ title: Category
 math: katex
 ---
 {% for cgy in site.categories %}
-<a href="#{{ cgy[0] | slugify }}">{{ cgy[0] }}&&nbsp;&&nbsp;</a>
+<a href="#{{ cgy[0] | slugify }}">{{ cgy[0] }}&nbsp;&nbsp;</a>
 {% endfor %}
 
 {% for cgy in site.categories %}
