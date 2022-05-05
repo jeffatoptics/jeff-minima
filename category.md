@@ -13,7 +13,7 @@ math: katex
       {% comment}
       {{ post.date | date: "%b %-d, %Y" }}
       {{ post.excerpt }}
-      {% endcomment}
+      {% endcomment %}
     {% endfor %}
   </ul>
 {% endfor %}
