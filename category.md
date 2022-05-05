@@ -4,11 +4,7 @@ permalink: /category/
 title: Category
 math: katex
 ---
-<span class="category-items">
-{% for cgy in site.categories %}
- <a href="#{{ cgy[0] | slugify }}">{{ cgy[0] }}</a>
-{% endfor %}
-</span>
+<span> {% for cgy in site.categories %} <a href="#{{ cgy[0] | slugify }}">{{ cgy[0] }}</a> {% endfor %} </span>
 
 {% for cgy in site.categories %}
   <h3 id="{{ cgy[0] | slugify }}">{{ cgy[0] }}</h3>
