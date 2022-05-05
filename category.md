@@ -10,10 +10,8 @@ math: katex
   <ul>
     {% for post in cgy[1] %}
       <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
-      {% comment %}
       {{ post.date | date: "%b %-d, %Y" }}
       {{ post.excerpt }}
-      {% endcomment %}
     {% endfor %}
   </ul>
 {% endfor %}
